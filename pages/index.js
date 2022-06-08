@@ -5,6 +5,8 @@ import Filters from '../components/filters.js'
 // import Routes from '../components/routes.js'
 import { promises as fs } from 'fs';
 import path from 'path';
+import styles from 'mapbox/lib/services/styles';
+
 
 export default function Home({ routesList }) {
   console.log(routesList);
@@ -15,11 +17,13 @@ export default function Home({ routesList }) {
       </Head>
       <Header />
       <Filters />
-      {routesList.routes.map(route =>  
-        <ul key={route.id}>
-          <li>{route.route}</li>
-        </ul> 
-          )}
+      <ul className="route-cards" >
+        {routesList.routes.map(route =>  
+          <li className='route-card' key={route.id}>
+            {route.route}
+          </li>
+        )}
+      </ul> 
     </div>
   )
 }

@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
+
 import Header from '../components/header.js'
 import Filters from '../components/filters.js'
-import Routes from '../components/routes.js'
+import RoutesCards from '../components/RoutesCards.js'
+
 import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -16,30 +18,29 @@ export default function Home({ routesList }) {
 
   const [routes, setRoutes] = useState({ routesList });
 
-  function filterRoutes(routes) {
-      // const routes = routesList.routes.slice().filter(route => parseInt(route.distance) > 100);
-      return console.log(routes);
-      // return routes.slice().filter(route => parseInt(route.distance) > 100);
-    }  
+    function filterRoutes(routes) {
+        // const routes = routesList.routes.slice().filter(route => parseInt(route.distance) > 100);
+        return console.log(routes);
+        // return routes.slice().filter(route => parseInt(route.distance) > 100);
+      }  
 
-  return (
+    console.log(routesList.routes)
+  
+    return (
     <div className="container">
       <Head>
         <title>trails.cc</title>
       </Head>
       <Header />
       <Filters /> 
-      <Routes /> 
+      
+  
       <div className='filters'>
-        <button onClick={() => setRoutes(filterRoutes(routes))}>Show routes under 100k</button>
+        <button onClick={() => setRoutes(filterRoutes("Test output"))}>Show routes under 100k</button>
       </div>
-      <ul className="route-cards" >
-        {routesList.routes.map(route =>  
-          <li className='route-card' key={route.id}>
-            {route.route}
-          </li>
-        )}
-      </ul>  
+
+      <RoutesCards routesList={routesList} /> 
+    
     </div>
   )
 }

@@ -4,14 +4,8 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 
-function Routes({ routesList }) {    
+export default function Routes() {    
     return (
-    <div>
-        <div>the routes</div>
-        <div>{ routesList }</div>
-    </div>
+    <div></div>
 )}
-
-
-export default Routes
 

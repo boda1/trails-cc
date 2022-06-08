@@ -2,28 +2,44 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Header from '../components/header.js'
 import Filters from '../components/filters.js'
-// import Routes from '../components/routes.js'
+import Routes from '../components/routes.js'
+import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
 import styles from 'mapbox/lib/services/styles';
 
 
+
 export default function Home({ routesList }) {
-  console.log(routesList);
+
+  // adding routesList to state so that filtering routes causes the list to re-render
+
+  const [routes, setRoutes] = useState({ routesList });
+
+  function filterRoutes(routes) {
+      // const routes = routesList.routes.slice().filter(route => parseInt(route.distance) > 100);
+      return console.log(routes);
+      // return routes.slice().filter(route => parseInt(route.distance) > 100);
+    }  
+
   return (
     <div className="container">
       <Head>
         <title>trails.cc</title>
       </Head>
       <Header />
-      <Filters />
+      <Filters /> 
+      <Routes /> 
+      <div className='filters'>
+        <button onClick={() => setRoutes(filterRoutes(routes))}>Show routes under 100k</button>
+      </div>
       <ul className="route-cards" >
         {routesList.routes.map(route =>  
           <li className='route-card' key={route.id}>
             {route.route}
           </li>
         )}
-      </ul> 
+      </ul>  
     </div>
   )
 }

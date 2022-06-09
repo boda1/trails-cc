@@ -9,6 +9,7 @@ import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
 import styles from 'mapbox/lib/services/styles';
+import NavBar from '../components/NavBar.js'
 
 
 
@@ -23,25 +24,28 @@ export default function Home({ routesList }) {
         return console.log(routes);
         // return routes.slice().filter(route => parseInt(route.distance) > 100);
       }  
-
-    console.log(routesList.routes)
   
     return (
-    <div className="container">
-      <Head>
-        <title>trails.cc</title>
-      </Head>
-      <Header />
-      <Filters /> 
+      <>
+        
+        <NavBar />
+        
+        <main className="container">
+          <Head>
+            <title>trails.cc</title>
+          </Head>
+          <Header />
+          <Filters /> 
+          
       
-  
-      <div className='filters'>
-        <button onClick={() => setRoutes(filterRoutes("Test output"))}>Show routes under 100k</button>
-      </div>
+          <div className='filters'>
+            <button onClick={() => setRoutes(filterRoutes(routesList))}>Show routes under 100k</button>
+          </div>
 
-      <RoutesCards routesList={routesList} /> 
-    
-    </div>
+          <RoutesCards routesList={routesList} /> 
+        
+        </main>
+    </>
   )
 }
 

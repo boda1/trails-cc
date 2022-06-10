@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
 import Header from '../components/header.js'
 import Filters from '../components/filters.js'
 import RoutesCards from '../components/RoutesCards.js'
-
 import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -15,16 +13,23 @@ import NavBar from '../components/NavBar.js'
 
 export default function Home({ routesList }) {
 
-  // adding routesList to state so that filtering routes causes the list to re-render
+  // working filters and state
+  // Next step is to move filters into component
 
-  const [routes, setRoutes] = useState({ routesList });
+  const [routeState, setRoutes] = useState(routesList.routes);
 
-    function filterRoutes(routes) {
-        // const routes = routesList.routes.slice().filter(route => parseInt(route.distance) > 100);
-        return console.log(routes);
-        // return routes.slice().filter(route => parseInt(route.distance) > 100);
-      }  
-  
+  function showAllRoutes(routesList) {
+    return routesList.routes.slice();
+  }  
+
+  function showRoutesUnderHundred(routesList) {
+    return routesList.routes.slice().filter(route => parseInt(route.distance) > 100);
+  }    
+
+  function showRoutesHighElevation(routesList) {
+    return routesList.routes.slice().filter(route => parseInt(route.elevation) > 800);
+  }    
+
     return (
       <>
         
@@ -37,12 +42,19 @@ export default function Home({ routesList }) {
           <Header />
           <Filters /> 
           
-      
           <div className='filters'>
-            <button onClick={() => setRoutes(filterRoutes(routesList))}>Show routes under 100k</button>
+            <button onClick={() => setRoutes(showAllRoutes(routesList))}>All</button>
           </div>
 
-          <RoutesCards routesList={routesList} /> 
+          <div className='filters'>
+            <button onClick={() => setRoutes(showRoutesUnderHundred(routesList))}>Routes under 100k</button>
+          </div>
+
+          <div className='filters'>
+            <button onClick={() => setRoutes(showRoutesHighElevation(routesList))}>Lots of hills</button>
+          </div>
+
+          <RoutesCards routeState={routeState} /> 
         
         </main>
     </>

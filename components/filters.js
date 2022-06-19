@@ -1,3 +1,5 @@
+import styles from '../styles/filters.module.css'
+
 const Filters = ({routesList, setRoutes}) => {
 
     function showAllRoutes(routesList) {
@@ -14,17 +16,19 @@ const Filters = ({routesList, setRoutes}) => {
 
     return (
         <>
-            <div className='filters'>
+        <div className={styles.filterContainer}>
+            <div className={styles.filters}>
                 <button onClick={() => setRoutes(showAllRoutes(routesList))}>All</button>
             </div>
 
-            <div className='filters'>
+            <div className={styles.filters}>
                 <button onClick={() => setRoutes(showRoutesUnderHundred(routesList))}>Routes under 100k</button>
             </div>
 
-            <div className='filters'>
+            <div className={styles.filters}>
                 <button onClick={() => setRoutes(showRoutesHighElevation(routesList))}>Lots of hills</button>
             </div>
+          </div>
         </>
 )}
 

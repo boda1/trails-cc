@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Header from '../components/header.js'
-import Filters from '../components/filters.js'
+import Filters from '../components/Filters.js'
 import RoutesCards from '../components/RoutesCards.js'
 import React, { useState } from 'react';
 import { promises as fs } from 'fs';
@@ -13,47 +13,19 @@ import NavBar from '../components/NavBar.js'
 
 export default function Home({ routesList }) {
 
-  // working filters and state
-  // Next step is to move filters into component
-
-  const [routeState, setRoutes] = useState(routesList.routes);
-
-  function showAllRoutes(routesList) {
-    return routesList.routes.slice();
-  }  
-
-  function showRoutesUnderHundred(routesList) {
-    return routesList.routes.slice().filter(route => parseInt(route.distance) > 100);
-  }    
-
-  function showRoutesHighElevation(routesList) {
-    return routesList.routes.slice().filter(route => parseInt(route.elevation) > 800);
-  }    
+  // define state and store in parent component
+  
+  const [routeState, setRoutes] = useState(routesList.routes); 
 
     return (
       <>
-        
         <NavBar />
-        
         <main className="container">
           <Head>
             <title>trails.cc</title>
           </Head>
           <Header />
-          <Filters /> 
-          
-          <div className='filters'>
-            <button onClick={() => setRoutes(showAllRoutes(routesList))}>All</button>
-          </div>
-
-          <div className='filters'>
-            <button onClick={() => setRoutes(showRoutesUnderHundred(routesList))}>Routes under 100k</button>
-          </div>
-
-          <div className='filters'>
-            <button onClick={() => setRoutes(showRoutesHighElevation(routesList))}>Lots of hills</button>
-          </div>
-
+          <Filters routesList={routesList} setRoutes={setRoutes}/> 
           <RoutesCards routeState={routeState} /> 
         
         </main>

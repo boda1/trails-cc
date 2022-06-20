@@ -5,42 +5,48 @@
       "route": "King alfred's way",
       "surface": "Off-road",
       "distance": "350",
-      "elevation": "1000"
+      "elevation": "1000",
+      "preview-image-url": ""
     },
     {
       "id": "2",
       "route": "Whitstable winder",
       "surface": "Road",
       "distance": "100",
-      "elevation": "2000"
+      "elevation": "2000",
+      "preview-image-url": ""
     },
     {
       "id": "3",
       "route": "The only way is Essex",
       "surface": "Road",
       "distance": "100",
-      "elevation": "600"
+      "elevation": "600",
+      "preview-image-url": ""
     },
     {
       "id": "4",
       "route": "London loop",
       "surface": "Road",
       "distance": "150",
-      "elevation": "1450"
+      "elevation": "1450",
+      "preview-image-url": ""
     },
     {
       "id": "5",
       "route": "Scotland and back",
       "surface": "Mixed surface",
       "distance": "10",
-      "elevation": "10000"
+      "elevation": "10000",
+      "preview-image-url": ""
     },
     {
       "id": "6",
       "route": "To the pub",
       "surface": "Bus",
       "distance": "1",
-      "elevation": "50"
+      "elevation": "50",
+      "preview-image-url": ""
     }
   ]
 }

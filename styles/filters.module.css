@@ -1,0 +1,12 @@
+.filterContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0.4rem;
+    border: 0.2rem solid #888;
+    padding: 0.8rem
+}

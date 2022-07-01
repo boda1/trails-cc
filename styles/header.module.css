@@ -1,0 +1,29 @@
+.siteTitleContainer > * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.siteTitleContainer {
+    position: relative;
+    align-items: center;
+    justify-content: centre;
+    float: left;
+    border: 0.01em solid red;
+}
+.siteTitleBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 0.01em solid red;
+}
+.siteTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    font-size: 10rem;   
+    line-height: 0.1em;
+    color: white;
+    border: 0.01em solid red;
+}

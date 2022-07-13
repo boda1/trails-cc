@@ -5,42 +5,54 @@
       "route": "King alfred's way",
       "surface": "Off-road",
       "type": "primary",
-      "elevation": "1000m"
+      "elevation": "1000m",
+      "path": "/King-alfreds-way",
+      "content": "<h1> Test Title 1 </h1> <br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
     },
     {
       "id": "2",
       "route": "Whitstable winder",
       "surface": "Road",
       "distance": "350km",
-      "elevation": "1000m"
+      "elevation": "1000m",
+      "path": "/Whitstable-Winder",
+      "content": "<h1> Test Title 2 </h1> <br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
     },
     {
       "id": "3",
       "route": "The only way is Essex",
       "surface": "Road",
       "distance": "100km",
-      "elevation": "1000m"
+      "elevation": "1000m",
+      "path": "/The-Only-Way-Is-Essex",
+      "content": "<h1> Test Title 3 </h1> <br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
     },
     {
       "id": "4",
       "route": "London loop",
       "surface": "Road",
       "distance": "150km",
-      "elevation": "1000m"
+      "elevation": "1000m",
+      "path": "/London-Loop",
+      "content": "<h1> Test Title 4 </h1> <br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
     },
     {
       "id": "5",
       "route": "Scotland and back",
       "surface": "Mixed surface",
       "distance": "10km",
-      "elevation": "1000m"
+      "elevation": "1000m",
+      "path": "/Scotland-and-Back",
+      "content": "<h1> Test Title 5 </h1> <br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
     },
     {
       "id": "6",
       "route": "To the pub",
       "surface": "Bus",
       "distance": "1km",
-      "elevation": "1000m"
+      "elevation": "1000m",
+      "path": "/To-The-Pub",
+      "content": "<h1> Test Title 6 </h1> <br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
     }
   ]
 }

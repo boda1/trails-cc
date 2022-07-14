@@ -1,0 +1,17 @@
+.navBar{
+    width: 100%;
+    height: 10vh;
+}
+
+.navBar > ul {
+    margin: auto;
+    padding: 3vh 0;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 1px  #eee solid;
+
+
+}

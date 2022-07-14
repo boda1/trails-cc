@@ -4,6 +4,8 @@
     font-size: 16px;
     list-style: none;
     text-decoration: none;
+    color: #222;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 
@@ -12,22 +14,3 @@
     margin: 0 auto;
 }
 
-.route-cards{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin:0 auto;
-    
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.route-card{
-    
-    width: 15%;
-    margin: 10px 0;
-    padding:5em 1em 0 1em;
-    border: 1px solid #888;
-    align-self: auto;
-}

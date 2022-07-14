@@ -1,30 +1,35 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Header from '../components/header.js'
-import Filters from '../components/filters.js'
-// import Routes from '../components/routes.js'
+import Filters from '../components/Filters.js'
+import RoutesCards from '../components/RoutesCards.js'
+import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
 import styles from 'mapbox/lib/services/styles';
+import NavBar from '../components/NavBar.js'
+
 
 
 export default function Home({ routesList }) {
-  console.log(routesList);
-  return (
-    <div className="container">
-      <Head>
-        <title>trails.cc</title>
-      </Head>
-      <Header />
-      <Filters />
-      <ul className="route-cards" >
-        {routesList.routes.map(route =>  
-          <li className='route-card' key={route.id}>
-            {route.route}
-          </li>
-        )}
-      </ul> 
-    </div>
+
+  // define state and store in parent component
+  
+  const [routeState, setRoutes] = useState(routesList.routes); 
+
+    return (
+      <>
+        <NavBar />
+        <main className="container">
+          <Head>
+            <title>trails.cc</title>
+          </Head>
+          <Header />
+          <Filters routesList={routesList} setRoutes={setRoutes}/> 
+          <RoutesCards routeState={routeState} /> 
+        
+        </main>
+    </>
   )
 }
 

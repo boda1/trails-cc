@@ -1,0 +1,22 @@
+.routeCards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:0 auto;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.routeCard{
+    width: 25%;
+    margin: 8px 0;
+    padding:5em 1em 0 1em;
+    border: 1px solid #888;
+    align-self: auto;
+}
+
+.routeCardLinks{
+    width:100%;
+}

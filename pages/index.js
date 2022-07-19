@@ -21,9 +21,6 @@ export default function Home({ routesList }) {
       <>
         <NavBar />
         <main className="container">
-          <Head>
-            <title>trails.cc</title>
-          </Head>
           <Header />
           <Filters routesList={routesList} setRoutes={setRoutes}/> 
           <RoutesCards routeState={routeState} /> 

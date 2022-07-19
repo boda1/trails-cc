@@ -1,0 +1,21 @@
+.siteTitleContainer > * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.siteTitleContainer {
+    z-index: 0;
+    height: 24em;
+    border: 0.01em solid red;
+}
+.siteTitleBackground > span {
+    z-index: 10;
+    border: 1em solid red;
+    width: 100vw;
+    height: 40vh; 
+}
+.siteTitle {
+    font-size: 6rem;   
+    color: black;
+    border: 0.01em solid red;
+}

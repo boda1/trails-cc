@@ -17,13 +17,29 @@ const RoutesCards = ({routeState}) => {
                         layout="responsive"
                         />
                         <Link href="[...slug]" as={route.path}>
-                            <a>{route.route}</a>
+                            <h2 style={{cursor: "pointer"}}><a  className= {styles.routeCardLinks}>{route.route}</a></h2>
                         </Link>
-                        {/* <Link href="/">
-                            <a className={styles.routeCardLinks}>
-                                {route.route}
-                            </a>
-                        </Link> */}
+
+                        <p>
+                            Description/ intro text - to be added to json
+                        </p>
+
+                        <ul>
+                            <li>
+                                <img></img>
+                                <p>{route.distance}</p>
+                            </li>
+                            <li>
+                                <img></img>
+                                <p>{route.elevation}</p>
+                            </li>
+                            <li>
+                                <img></img>
+                                <p>{route.surface}</p>
+                            </li>
+                        </ul>
+
+
                     </li>
                 )}
             </ul>

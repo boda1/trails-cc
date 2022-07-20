@@ -2,11 +2,11 @@ import link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/header.module.css'
 
-export default function Header({pageTitle}) {
+export default function IndexHeader() {
     return (
         <header>
                 <div className={styles.siteTitle}>
-                    {pageTitle}
+                    Trails.cc
                 </div>
                 {/*  
 

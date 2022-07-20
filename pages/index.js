@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Header from '../components/header.js'
+
+import IndexHeader from '../components/indexHeader.js'
 import Filters from '../components/Filters.js'
 import RoutesCards from '../components/RoutesCards.js'
+
 import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
+
 import styles from 'mapbox/lib/services/styles';
 import NavBar from '../components/NavBar.js'
 
@@ -21,7 +24,7 @@ export default function Home({ routesList }) {
       <>
         <NavBar />
         <main className="container">
-          <Header />
+          <IndexHeader />
           <Filters routesList={routesList} setRoutes={setRoutes}/> 
           <RoutesCards routeState={routeState} /> 
         

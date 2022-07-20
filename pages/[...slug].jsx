@@ -7,18 +7,27 @@ import content from '../routes-directory/routesfile.json'
 import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
+import Image from 'next/image';
+
+import styles from '../styles/blogPost.module.css'
 
 export default function Page({page}) {
   return (
       <>
-        {/* <Head>
-          <title>{page.title} | {content.title}</title>
-        </Head> */}
+        <Head>
+          <title> {page.route} | Routes.cc </title>
+        </Head>
         <NavBar />
         <Header pageTitle={page.route} />
 
-        <main>
-          <div dangerouslySetInnerHTML={{__html: page.content}}></div>
+        <main className={styles.container}>
+          <Image src={page.imageurl}
+                        alt={page.route}
+                        width={4896}
+                        height={2760}
+                        layout="responsive"
+          />
+          <article className={styles.content} dangerouslySetInnerHTML={{__html: page.content}}></article>
         </main>
       </>
   );

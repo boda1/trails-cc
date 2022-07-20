@@ -5,9 +5,9 @@ import styles from '../styles/header.module.css'
 export default function Header({pageTitle}) {
     return (
         <header>
-                <div className={styles.siteTitle}>
+                <h1 className={styles.siteTitle}>
                     {pageTitle}
-                </div>
+                </h1>
                 {/*  
 
                 not ready to apply styling to next.js image component 

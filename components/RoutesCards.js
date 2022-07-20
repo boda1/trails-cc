@@ -15,13 +15,15 @@ const RoutesCards = ({routeState}) => {
                         width={4896}
                         height={2760}
                         layout="responsive"
-                        
                         />
-                        <Link href="/">
+                        <Link href="[...slug]" as={route.path}>
+                            <a>{route.route}</a>
+                        </Link>
+                        {/* <Link href="/">
                             <a className={styles.routeCardLinks}>
                                 {route.route}
                             </a>
-                        </Link>
+                        </Link> */}
                     </li>
                 )}
             </ul>

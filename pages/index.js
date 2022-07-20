@@ -11,6 +11,7 @@ import path from 'path';
 
 import styles from 'mapbox/lib/services/styles';
 import NavBar from '../components/NavBar.js'
+import HeroPost from '../components/HeroPost.js'
 
 
 
@@ -25,6 +26,8 @@ export default function Home({ routesList }) {
         <NavBar />
         <main className="container">
           <IndexHeader />
+          <Header />
+          <HeroPost />
           <Filters routesList={routesList} setRoutes={setRoutes}/> 
           <RoutesCards routeState={routeState} /> 
         

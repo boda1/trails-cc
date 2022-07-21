@@ -4,19 +4,24 @@ import styles from '../styles/hero-post.module.css'
 
 export default function HeroPost() {
     return (
-    <div className={styles.heroPost}>
-        <Image  
-                    src="/king-alfred-preview.jpeg"
-                    alt="alt-text"
-                    width={4896}
-                    height={2760}
-                    layout="responsive"
-                    
-        />
-        <div className={styles.caption}>
+    <div className={styles.heroPostContainer}>
+        <div className={styles.heroPostImage}>
+            <Image  
+                        src="/king-alfred-preview.jpeg"
+                        alt="alt-text"
+                        width={4896}
+                        height={2760}
+                        layout="responsive"
+                        
+            />
+        </div>
+        <div className={styles.heroPostCaption}>
             <h2>
-                Name of latest post
+                Title of latest post
             </h2>
+            <h3>
+                "We went somewhere and this is what it looked like yay"
+            </h3>
         </div>
     </div>
 )}

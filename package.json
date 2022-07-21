@@ -8,12 +8,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "mapbox": "^1.0.0-beta10",
-<<<<<<< HEAD
     "next": "^12.2.2",
-=======
-    "next": "^12.1.6",
-    "node": "^18.5.0",
->>>>>>> c8b5b9a (remove duplicate header)
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "readfilesync": "^1.1.5"

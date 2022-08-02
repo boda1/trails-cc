@@ -23,9 +23,6 @@
     transition: height 500ms ease;
 }
 
-.routeCardFooter {
-}
-
 .routeCardFooter > div {
     position: relative;
     padding: 0.2em;

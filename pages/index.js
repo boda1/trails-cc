@@ -26,7 +26,6 @@ export default function Home({ routesList }) {
         <NavBar />
         <main className="container">
           <IndexHeader />
-          <Header />
           <HeroPost routesList={routesList}/>
           <Filters routesList={routesList} setRoutes={setRoutes}/> 
           <RoutesCards routeState={routeState} /> 

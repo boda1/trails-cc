@@ -9,7 +9,7 @@ const RoutesCards = ({ routeState }) => {
     return (
     <div>
             <ul className={styles.routeCards} >
-                {routeState.map(route =>  
+                {routeState.slice(0,-1).map(route =>  
                     <li className={styles.routeCard} key={route.id}>
                         <Image
                         src={route.imageurl}

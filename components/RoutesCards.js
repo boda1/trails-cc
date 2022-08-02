@@ -13,7 +13,7 @@ const RoutesCards = ({ routeState }) => {
                     <li className={styles.routeCard} key={route.id}>
                         <Image
                         src={route.imageurl}
-                        alt={route.route}
+                        alt={route.image_alt_text}
                         width={4896}
                         height={2760}
                         layout="responsive"

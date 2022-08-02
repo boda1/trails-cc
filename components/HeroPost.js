@@ -18,8 +18,8 @@ export default function HeroPost({ routesList }) {
     <div className={styles.heroPostContainer}>
         <div className={styles.heroPostImage}>
             <Image  
-                        src="/king-alfred-preview.jpeg"
-                        alt="alt-text"
+                        src={latestRoute.imageurl}
+                        alt={latestRoute.image_alt_text}
                         width={4896}
                         height={2760}
                         layout="responsive"

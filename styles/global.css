@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* Color Theme Swatches in Hex
+.Oddict®-1-hex { color: #BFB0A3; }
+.Oddict®-2-hex { color: #736A62; }
+.Oddict®-3-hex { color: #D9C9BA; }
+.Oddict®-4-hex { color: #403D3D; }
+.Oddict®-5-hex { color: #0D0D0D; } */
+
 * {
     padding: 0;
     margin: 0;
     font-size: 16px;
     list-style: none;
     text-decoration: none;
-    color: #222;
+    color: #403D3D;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
+body{
+    background-color: #D9C9BA;
+}
 
 .container {
     width: 100vw;

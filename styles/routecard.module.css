@@ -10,15 +10,13 @@
 
 .routeCard{
     width: 25%;
-    height: 40vh;
+    height: auto;
     margin: 8px 0;
     padding: 1em;
     align-self: auto;
 
-    border: 2px solid #999;
+    border: 2px solid #736A62;
     border-radius: 2%;
-
-    overflow: hidden;
 
     transition: height 500ms ease;
 }

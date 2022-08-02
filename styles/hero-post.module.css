@@ -1,0 +1,19 @@
+.heroPostContainer{
+    position: relative;
+}
+
+.heroPostCaption{
+    position: absolute;
+    top: 1%;
+    left: 1%
+}
+
+.heroPostCaption > h2 {
+    color: white;
+    font-size: 6rem;
+}
+
+.heroPostCaption > h3 {
+    color: white;
+    font-size: 2rem;
+}

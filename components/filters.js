@@ -17,15 +17,15 @@ const Filters = ({routesList, setRoutes}) => {
     return (
         <>
         <div className={styles.filterContainer}>
-            <div className={styles.filters}>
+            <div className={styles.filterButton}>
                 <button onClick={() => setRoutes(showAllRoutes(routesList))}>All</button>
             </div>
 
-            <div className={styles.filters}>
+            <div className={styles.filterButton}>
                 <button onClick={() => setRoutes(showRoutesUnderHundred(routesList))}>Routes under 100k</button>
             </div>
 
-            <div className={styles.filters}>
+            <div className={styles.filterButton}>
                 <button onClick={() => setRoutes(showRoutesHighElevation(routesList))}>Lots of hills</button>
             </div>
           </div>

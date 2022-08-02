@@ -27,7 +27,7 @@ export default function Home({ routesList }) {
         <main className="container">
           <IndexHeader />
           <Header />
-          <HeroPost />
+          <HeroPost routesList={routesList}/>
           <Filters routesList={routesList} setRoutes={setRoutes}/> 
           <RoutesCards routeState={routeState} /> 
         
@@ -52,5 +52,4 @@ export async function getStaticProps() {
           routesList: routes,
       },
   }
-
 }

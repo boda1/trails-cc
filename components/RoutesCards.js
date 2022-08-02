@@ -1,14 +1,16 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/routecard.module.css'
+import styles from '../styles/routecard.module.css';
+import { FaMountain } from 'react-icons/fa';
+import { RiPinDistanceFill } from 'react-icons/ri';
 
 
-const RoutesCards = ({routeState}) => {    
+const RoutesCards = ({ routeState }) => {    
     return (
     <div>
             <ul className={styles.routeCards} >
                 {routeState.map(route =>  
-                    <li className= {styles.routeCard} key={route.id}>
+                    <li className={styles.routeCard} key={route.id}>
                         <Image
                         src={route.imageurl}
                         alt={route.route}
@@ -16,30 +18,30 @@ const RoutesCards = ({routeState}) => {
                         height={2760}
                         layout="responsive"
                         />
-                        <Link href="[...slug]" as={route.path}>
-                            <h2 style={{cursor: "pointer"}}><a  className= {styles.routeCardLinks}>{route.route}</a></h2>
-                        </Link>
-
-                        <p>
-                            Description/ intro text - to be added to json
-                        </p>
-
-                        <ul>
-                            <li>
-                                <img></img>
-                                <p>{route.distance}</p>
-                            </li>
-                            <li>
-                                <img></img>
-                                <p>{route.elevation}</p>
-                            </li>
-                            <li>
-                                <img></img>
-                                <p>{route.surface}</p>
-                            </li>
-                        </ul>
-
-
+                        <div className={styles.routeCardFooter}>
+                            <div>
+                                <div className={styles.routeLink}>
+                                    <Link href="[...slug]" as={route.path} className={styles.routeLink}>
+                                        <a>{route.route}</a>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div>
+                                <div className={styles.routeElevation}>
+                                    <FaMountain alt='mountain icon' /> - {route.elevation}m
+                                </div>
+                            </div>    
+                            <div>
+                                <div className={styles.routeDistance}>
+                                    <RiPinDistanceFill alt='distance icon' /> - {route.distance}km
+                                </div>
+                            </div>
+                        </div>
+                        {/* <Link href="/">
+                            <a className={styles.routeCardLinks}>
+                                {route.route}
+                            </a>
+                        </Link> */}
                     </li>
                 )}
             </ul>

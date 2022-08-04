@@ -10,7 +10,7 @@ export default function HeroPost({ routesList }) {
 
     // YOU ARE HERE
 
-    const latestRoute = routesList.routes.filter(route => console.log(route.id == 1))
+    const latestRoute = routesList.routes[routesList.routes.length - 1]
 
     console.log("latest route:", latestRoute);
 
@@ -18,8 +18,8 @@ export default function HeroPost({ routesList }) {
     <div className={styles.heroPostContainer}>
         <div className={styles.heroPostImage}>
             <Image  
-                        src="/king-alfred-preview.jpeg"
-                        alt="alt-text"
+                        src={latestRoute.imageurl}
+                        alt={latestRoute.image_alt_text}
                         width={4896}
                         height={2760}
                         layout="responsive"
@@ -28,7 +28,7 @@ export default function HeroPost({ routesList }) {
         </div>
         <div className={styles.heroPostCaption}>
             <h2>
-                Title of latest post
+                {latestRoute.route}
             </h2>
             <h3>
                 "We went somewhere and this is what it looked like yay"

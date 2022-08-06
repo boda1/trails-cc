@@ -16,19 +16,19 @@ const Filters = ({routesList, setRoutes}) => {
 
     return (
         <>
-        <div className={styles.filterContainer}>
-            <div className={styles.filterButton}>
+        <ul className={styles.filterContainer}>
+            <li className={styles.filterButton}>
                 <button onClick={() => setRoutes(showAllRoutes(routesList))}>All</button>
-            </div>
+            </li>
 
-            <div className={styles.filterButton}>
+            <li className={styles.filterButton}>
                 <button onClick={() => setRoutes(showRoutesUnderHundred(routesList))}>Routes under 100k</button>
-            </div>
+            </li>
 
-            <div className={styles.filterButton}>
+            <li className={styles.filterButton}>
                 <button onClick={() => setRoutes(showRoutesHighElevation(routesList))}>Lots of hills</button>
-            </div>
-          </div>
+            </li>
+          </ul>
         </>
 )}
 

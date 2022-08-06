@@ -9,10 +9,10 @@ import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-import styles from 'mapbox/lib/services/styles';
 import NavBar from '../components/NavBar.js'
 import HeroPost from '../components/HeroPost.js'
 
+import styles from '../styles/index.module.css'
 
 
 export default function Home({ routesList }) {
@@ -28,8 +28,11 @@ export default function Home({ routesList }) {
           <IndexHeader />
           <HeroPost routesList={routesList}/>
           <Filters routesList={routesList} setRoutes={setRoutes}/> 
-          <RoutesCards routeState={routeState} /> 
-        
+          
+          <section className={styles.cardSection}>
+            <RoutesCards routeState={routeState} /> 
+          </section>
+
         </main>
     </>
   )

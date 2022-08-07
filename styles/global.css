@@ -21,18 +21,13 @@
     overflow-x: hidden;
 }
 
-header {
-    height:100vh;
-}
-
 body{
     background-color: var(--dark-bg-color);
 }
 
 .container {
     width: 100vw;
-    margin: 0 auto;
-    padding: 0.2em;    
+    margin: 0 auto;    
 }
 
 

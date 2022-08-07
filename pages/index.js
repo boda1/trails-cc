@@ -1,17 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
 import IndexHeader from '../components/indexHeader.js'
 import Filters from '../components/Filters.js'
 import RoutesCards from '../components/RoutesCards.js'
-
 import React, { useState } from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
-
 import NavBar from '../components/NavBar.js'
 import HeroPost from '../components/HeroPost.js'
-
 import styles from '../styles/index.module.css'
 
 
@@ -23,9 +19,8 @@ export default function Home({ routesList }) {
 
     return (
       <>
-        <NavBar />
+      <NavBar />
         <main className="container">
-          <IndexHeader />
           <HeroPost routesList={routesList}/>
           <Filters routesList={routesList} setRoutes={setRoutes}/> 
           

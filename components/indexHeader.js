@@ -5,9 +5,13 @@ import styles from '../styles/header.module.css'
 export default function IndexHeader() {
     return (
         <header>
-                <div className={styles.siteTitle}>
-                    Trails.cc
-                </div>
+                <h1 className={`${styles.siteTitle} ${styles.indexHeaderSubtitle}`}>
+                    Trails<span className={styles.contrastText}>.cc</span>
+                </h1>
+
+                <h3 className={styles.indexHeaderSubtitle}>
+                    Some tagline for the website
+                </h3>
                 {/*  
 
                 not ready to apply styling to next.js image component 

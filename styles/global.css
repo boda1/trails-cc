@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* Color Theme Swatches in Hex
-.Oddict®-1-hex { color: #BFB0A3; }
-.Oddict®-2-hex { color: #736A62; }
-.Oddict®-3-hex { color: #D9C9BA; }
-.Oddict®-4-hex { color: #403D3D; }
-.Oddict®-5-hex { color: #0D0D0D; } */
+
+:root {
+    --light-bg-color: #A7A399;
+    --dark-bg-color: #223237;
+    --highlight-color: #F4651E;
+    --main-color: #F4F6F3;
+    --other-color: #B49358;
+  }
+
 
 * {
     padding: 0;
@@ -13,13 +16,17 @@
     font-size: 16px;
     list-style: none;
     text-decoration: none;
-    color: #403D3D;
+    color: var(--main-color);
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
 
+header {
+    height:100vh;
+}
+
 body{
-    background-color: #D9C9BA;
+    background-color: var(--dark-bg-color);
 }
 
 .container {
@@ -27,4 +34,5 @@ body{
     margin: 0 auto;
     padding: 0.2em;    
 }
+
 

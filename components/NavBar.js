@@ -7,7 +7,7 @@ const NavBar = ({}) => {
         <nav className={styles.navBar}>
           <ul>
             <li>
-              <Link href="/">
+              <Link  href="/">
                 <a>Logo</a>
               </Link>
             </li>

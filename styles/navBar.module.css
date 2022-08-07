@@ -1,6 +1,7 @@
 .navBar{
     width: 100%;
     height: 10vh;
+    position: absolute;
 }
 
 .navBar > ul {
@@ -11,7 +12,11 @@
     justify-content: space-around;
     align-items: center;
 
-    border-bottom: 1px  #eee solid;
+    border-bottom: 2px  var(--other-color) solid;
 
 
+}
+
+.navLink {
+    text-decoration: none;
 }

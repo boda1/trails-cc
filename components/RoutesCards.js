@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/routecard.module.css';
-import { FaMountain } from 'react-icons/fa';
+import { FaMountain,FaRoad } from 'react-icons/fa';
 import { RiPinDistanceFill } from 'react-icons/ri';
 
 
@@ -18,25 +18,28 @@ const RoutesCards = ({ routeState }) => {
                         height={2760}
                         layout="responsive"
                         />
-                        <div className={styles.routeCardFooter}>
-                            <div>
-                                <div className={styles.routeLink}>
-                                    <Link href="[...slug]" as={route.path} className={styles.routeLink}>
-                                        <a>{route.route}</a>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div>
-                                <div className={styles.routeElevation}>
-                                    <FaMountain alt='mountain icon' /> - {route.elevation}m
-                                </div>
-                            </div>    
-                            <div>
-                                <div className={styles.routeDistance}>
-                                    <RiPinDistanceFill alt='distance icon' /> - {route.distance}km
-                                </div>
-                            </div>
-                        </div>
+
+                        <ul className={styles.routeCardFooter}>
+
+                            <li className={styles.routeLink}>
+                                <Link href="[...slug]" as={route.path} className={styles.routeLink}>
+                                    <a>{route.route}</a>
+                                </Link>
+                            </li>
+
+                            <li className={styles.routeStats}>
+                                <FaMountain alt='mountain icon' /> - {route.elevation}m
+                            </li>
+
+
+                            <li className={styles.routeStats}>
+                                <RiPinDistanceFill alt='distance icon' /> - {route.distance}km
+                            </li>
+
+                            <li className={styles.routeStats}>
+                                <FaRoad alt='surface icon' /> - {route.surface}
+                            </li>
+                        </ul>
                         {/* <Link href="/">
                             <a className={styles.routeCardLinks}>
                                 {route.route}

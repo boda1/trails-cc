@@ -16,5 +16,15 @@
 }
 .siteTitle {
     font-size: 6rem;   
+    padding:30vh 0 0 3%;
+    margin: auto;
+}
+
+.indexHeaderSubtitle {
     padding-left: 3%;
+}
+
+.contrastText {
+    color: var(--other-color);
+    font: inherit;
 }

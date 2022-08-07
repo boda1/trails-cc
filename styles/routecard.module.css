@@ -15,34 +15,35 @@
     padding: 1em;
     align-self: auto;
 
-    border: 2px solid #736A62;
+    border: 2px solid var(--other-color);
     border-radius: 2%;
-
-    transition: height 500ms ease;
 }
 
-.routeCardFooter > div {
-    position: relative;
+.routeCardFooter {
+    position:relative;
     padding: 0.2em;
-    height: 0.8em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
 }
 
 .routeLink {
-    position: absolute;
     top: 0.2em;
+    align-self: flex-start;
+
+    font-weight: 700;
+    text-decoration: underline var(--other-color)
 }
 
-.routeElevation {
-    position: absolute;
+.routeStats {
     top: 0.2em;
-}
-
-.routeDistance {
-    position: absolute;
-    top: 0.2em;
+    align-self: flex-start;
 }
 
 .routeCardFooter > div > a {
     cursor: pointer;
-    text-decoration: underline;
+    align-self: flex-start;
+
 }

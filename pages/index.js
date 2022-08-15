@@ -10,20 +10,18 @@ import NavBar from '../components/NavBar.js'
 import HeroPost from '../components/HeroPost.js'
 import styles from '../styles/index.module.css'
 
-
-export default function Home({ routesList }) {
+export default function Home(props) {
 
   // define state and store in parent component
   
-  const [routeState, setRoutes] = useState(routesList.routes); 
+  const [routeState, setRoutes] = useState(props.routesList.routes); 
 
     return (
       <>
       <NavBar />
         <main className="container">
-          <HeroPost routesList={routesList}/>
-          <Filters routesList={routesList} setRoutes={setRoutes}/> 
-          
+          <HeroPost routesList={props.routesList} weatherData={props.weatherData} />
+          <Filters routesList={props.routesList} setRoutes={setRoutes} /> 
           <section className={styles.cardSection}>
             <RoutesCards routeState={routeState} /> 
           </section>
@@ -33,20 +31,29 @@ export default function Home({ routesList }) {
   )
 }
 
-// read routes from json file (routesfile.json)
-// getStaticProps runs server-side only
-// TO IMPROVE: file reading code seems verbose and I'm unsure on async behaviour
+// Get route and weather-API data
 
-export async function getStaticProps() {
-  const routesDirectory = path.join(process.cwd(), 'routes-directory')
+export async function getServerSideProps() {
+  // get route data
+  const routesDirectory = path.join(process.cwd(), 'routes-directory');
   const filenames = await fs.readdir(routesDirectory);
-  const filePath = path.join(routesDirectory, filenames[0])
-  const routesFile = await fs.readFile(filePath, 'utf8')
-  const routes = JSON.parse(routesFile)
+  const filePath = path.join(routesDirectory, filenames[0]);
+  const routesFile = await fs.readFile(filePath, 'utf8');
+  const routes = JSON.parse(routesFile);
+
+  // get weather data
+  const weatherEndpoint = 'https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=' + process.env.WEATHER_API_KEY;
+  const res = await fetch(weatherEndpoint);
+  const data = await res.json();
+    
+  // console.log('Weather data:', data);
+
 
   return {
       props: { 
           routesList: routes,
+          weatherData: data,
       },
   }
 }
+

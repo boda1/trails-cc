@@ -1,11 +1,10 @@
 import link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/hero-post.module.css'
+import WeatherData from './WeatherData'
 
 export default function HeroPost(props) {
-
     const latestRoute = props.routesList.routes[props.routesList.routes.length - 1]
-    console.log('weather data:', props.weatherData);
 
     return (
         <div className={styles.heroPostContainer}>
@@ -30,5 +29,6 @@ export default function HeroPost(props) {
                     "We went somewhere and this is what it looked like yay"
                 </h3>
             </div>
+            <WeatherData />
         </div>
 )}

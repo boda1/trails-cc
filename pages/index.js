@@ -12,8 +12,8 @@ import styles from '../styles/index.module.css'
 
 export default function Home(props) {
 
-  // define state and store in parent component
-  
+  console.log(props.routesList);
+
   const [routeState, setRoutes] = useState(props.routesList.routes); 
 
     return (
@@ -34,25 +34,35 @@ export default function Home(props) {
 // Get route and weather-API data
 
 export async function getServerSideProps() {
-  // get route data
+  
+  // Get route data
+
   const routesDirectory = path.join(process.cwd(), 'routes-directory');
   const filenames = await fs.readdir(routesDirectory);
   const filePath = path.join(routesDirectory, filenames[0]);
   const routesFile = await fs.readFile(filePath, 'utf8');
   const routes = JSON.parse(routesFile);
 
-  // get weather data
-  const weatherEndpoint = 'https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=' + process.env.WEATHER_API_KEY;
-  const res = await fetch(weatherEndpoint);
-  const data = await res.json();
+
+  // Get weather data
+
+  const routeLatitude = [];
+  const routeLongitude = [];
+  const weatherEndpoints = [];
+  const weatherDataArray = [];
+
+  for (let i=0; i < routes.routes.length; i++) {
+    routeLatitude[i] = routes.routes[i].latitude;
+    routeLongitude[i] = routes.routes[i].longitude;
+    weatherEndpoints[i] = 'https://api.openweathermap.org/data/2.5/weather?lat=' + routeLatitude[i] + '&lon=' + routeLongitude[i] + '&appid=' + process.env.WEATHER_API_KEY;
+    const res = await fetch(weatherEndpoints[i]);
+    weatherDataArray[i] = await res.json();
+    routes.routes[i].weather = weatherDataArray[i];
+  }
     
-  // console.log('Weather data:', data);
-
-
   return {
       props: { 
           routesList: routes,
-          weatherData: data,
       },
   }
 }

@@ -10,7 +10,10 @@
       "imageurl": "/king-alfred-preview.jpeg",
       "image_alt_text": "king-alfred-preview",
       "path": "/King-alfreds-way",
-      "content": "<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
+      "content": "<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est.",
+      "longitude": 51.503634, 
+      "latitude": -0.102646,
+      "weather": ""
     },
     {
       "id": 2,
@@ -21,7 +24,10 @@
       "imageurl": "/king-alfred-preview.jpeg",
       "image_alt_text": "preview",
       "path": "/Whitstable-Winder",
-      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
+      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est.",
+      "longitude": 51.284456, 
+      "latitude": 0.075852,
+      "weather": ""
     },
     {
       "id": 3,
@@ -32,7 +38,10 @@
       "imageurl": "/king-alfred-preview.jpeg",
       "image_alt_text": "preview",
       "path": "/The-Only-Way-Is-Essex",
-      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
+      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est.",
+      "longitude": 51.646457, 
+      "latitude": 0.487280,
+      "weather": ""
     },
     {
       "id": 4,
@@ -43,7 +52,10 @@
       "imageurl": "/king-alfred-preview.jpeg",
       "image_alt_text": "preview",
       "path": "/London-Loop",
-      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
+      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est.",
+      "longitude": 51.503634, 
+      "latitude": -0.102646,
+      "weather": ""
     },
     {
       "id": 5,
@@ -54,7 +66,10 @@
       "imageurl": "/king-alfred-preview.jpeg",
       "image_alt_text": "preview",
       "path": "/Scotland-and-Back",
-      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
+      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est.",
+      "longitude": 57.147401, 
+      "latitude": -3.540631,
+      "weather": ""
     },
     {
       "id": 6,
@@ -65,7 +80,10 @@
       "imageurl": "/king-alfred-preview.jpeg",
       "image_alt_text": "preview",
       "path": "/To-The-Pub",
-      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est."
+      "content": "<br><br> <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus arcu, condimentum eu mauris dapibus, ultrices fermentum ante. Nam id arcu at mauris mollis cursus. Suspendisse lacus justo, condimentum nec eleifend quis, fermentum in odio. Fusce eleifend sem ut massa porta, et accumsan ipsum ultricies. Mauris tempus placerat ullamcorper. Etiam consequat sollicitudin commodo. Integer elementum volutpat ante ac convallis.<br><br>Maecenas nec ornare elit, sit amet iaculis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lorem mi, fringilla id gravida a, vestibulum at sem. Nunc magna dui, pharetra nec dignissim sit amet, venenatis et lorem. In enim arcu, tincidunt in est et, molestie consequat elit. Ut eget enim id sem scelerisque fermentum eu ut mi. Quisque viverra quis erat quis pharetra. Curabitur fermentum consectetur pellentesque. Sed in eros vehicula, scelerisque justo sit amet, venenatis est.",
+      "longitude": 51.503634, 
+      "latitude": -0.102646,
+      "weather": ""
     }
   ]
 }

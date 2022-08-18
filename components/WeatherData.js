@@ -1,10 +1,17 @@
-// will be used to display weather data
+import React from 'react';
 
-import React, { useEffect, useState } from 'react';
+const WeatherData = ({ latestRoute }) => {
+    
+    // weather can be any of the following values: Thunderstorm, Drizzle, Rain, Snow, Mist/Smoke/Haze/Dust/Ash/Squall/Tornado, clear, clouds 
 
-const WeatherData = (props) => {
+    const currentWeather = latestRoute.weather.weather[0].main;
+    const currentTemp = Math.floor(latestRoute.weather.main.temp - 273.15);
+    
     return ( 
-        <div></div>
+        <div>
+            <div>Weather data: {currentWeather}</div>
+            <div>Temperature: {currentTemp}</div>
+        </div>
     );
 }
  

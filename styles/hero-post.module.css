@@ -11,7 +11,7 @@
 .heroPostCaption{
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 25%;
     text-align: center;
 }
 
@@ -21,4 +21,10 @@
 
 .heroPostCaption > h3 {
     font-size: 2rem;
+}
+
+.heroPostWeather{
+    position: absolute;
+    bottom: 4%;
+    left: 1%;
 }

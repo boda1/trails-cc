@@ -29,6 +29,8 @@ export default function HeroPost(props) {
                     "We went somewhere and this is what it looked like yay"
                 </h3>
             </div>
-            <WeatherData />
+            <div className={styles.heroPostWeather}>
+                <WeatherData latestRoute={latestRoute}/>
+            </div>
         </div>
 )}

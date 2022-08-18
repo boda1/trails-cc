@@ -12,7 +12,7 @@ import styles from '../styles/index.module.css'
 
 export default function Home(props) {
 
-  console.log(props.routesList);
+  console.log("Route object with weather data:", props.routesList);
 
   const [routeState, setRoutes] = useState(props.routesList.routes); 
 

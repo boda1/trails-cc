@@ -15,8 +15,9 @@
     padding: 1em;
     align-self: auto;
 
+    
     border: 2px solid var(--other-color);
-    border-radius: 2%;
+    border-radius: 0%;
 }
 
 .routeCardFooter {

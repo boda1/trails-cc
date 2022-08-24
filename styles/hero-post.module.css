@@ -1,17 +1,18 @@
 .heroPostContainer{
     position: relative;
+    margin: 2rem 2rem 1rem 2rem;
 }
 
 .heroPostSiteTitle{
     position: absolute;
     top: 4%;
-    left: 1%
+    left: 2%
 }
 
 .heroPostCaption{
     position: absolute;
-    top: 40%;
-    left: 25%;
+    top: 32%;
+    left: 30%;
     text-align: center;
 }
 
@@ -27,4 +28,6 @@
     position: absolute;
     bottom: 4%;
     left: 1%;
+    border-top: 2px  var(--other-color) solid;
+    border-bottom: 2px  var(--other-color) solid;
 }

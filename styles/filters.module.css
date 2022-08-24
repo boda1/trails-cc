@@ -19,7 +19,7 @@
     text-align: center;
 
     border: 2px solid var(--other-color);
-    border-radius: 5%;
+    border-radius: 0%;
 
     color: inherit;
     text-decoration: underline 0.15em rgba(255, 255, 255, 0);

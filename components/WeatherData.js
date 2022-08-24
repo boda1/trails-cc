@@ -10,10 +10,12 @@ const WeatherData = ({ latestRoute }) => {
     
     return ( 
         <div>
-            <h4>What's the weather like today?</h4>
-            <p>{currentWeather}</p>
-            <p>{currentTemp}°C</p>
-            <p>{currentWind} MPH</p>
+            <h4>Riding today?</h4>
+            <ul>
+                <li>{currentWeather}</li>
+                <li>{currentTemp}°C</li>
+                <li>{currentWind} MPH</li>
+            </ul>
         </div>
     );
 }

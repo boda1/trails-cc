@@ -19,3 +19,7 @@
 .navLink {
     text-decoration: none;
 }
+
+.navBar > a {
+    font-weight: 500;
+}

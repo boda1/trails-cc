@@ -1,11 +1,12 @@
 .navBar {
     width: 100%;
-    height: 10vh;
+    height: 10%;
     position: relative;
 }
 
 .navBar > ul {
-    margin: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding: 3vh 0;
 
     display: flex;
@@ -17,4 +18,8 @@
 
 .navLink {
     text-decoration: none;
+}
+
+.navBar > a {
+    font-weight: 500;
 }

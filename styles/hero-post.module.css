@@ -3,6 +3,79 @@
     margin: 2rem 2rem 1rem 2rem;
 }
 
+@media screen and (min-width: 0em) {
+
+    .heroPostSiteTitle{
+        position: absolute;
+        top: 4%;
+        left: 2%
+    }
+    
+    .heroPostCaption{
+        position: absolute;
+        top: 32%;
+        left: 25%;
+        text-align: center;
+    }
+    
+    .heroPostCaption > h2 {
+        font-size: 2rem;
+    }
+    
+    .heroPostCaption > h3 {
+        font-size: 0.6rem;
+    }
+    
+    .heroPostWeather{
+        position: absolute;
+        bottom: 4%;
+        left: 1%;
+        border-top: 2px  var(--other-color) solid;
+        border-bottom: 2px  var(--other-color) solid;
+        opacity: 0;
+    }
+    
+}
+
+
+@media screen and (min-width: 36em) {
+
+    .heroPostSiteTitle{
+        position: absolute;
+        top: 4%;
+        left: 2%
+    }
+    
+    .heroPostCaption{
+        position: absolute;
+        top: 32%;
+        left: 25%;
+        text-align: center;
+    }
+    
+    .heroPostCaption > h2 {
+        font-size: 2rem;
+    }
+    
+    .heroPostCaption > h3 {
+        font-size: 0.6rem;
+    }
+    
+    .heroPostWeather{
+        position: absolute;
+        bottom: 4%;
+        left: 1%;
+        border-top: 2px  var(--other-color) solid;
+        border-bottom: 2px  var(--other-color) solid;
+        opacity: 1;
+    }
+    
+}
+    
+
+
+@media screen and (min-width: 48em) {
+
 .heroPostSiteTitle{
     position: absolute;
     top: 4%;
@@ -12,16 +85,16 @@
 .heroPostCaption{
     position: absolute;
     top: 32%;
-    left: 30%;
+    left: 25%;
     text-align: center;
 }
 
 .heroPostCaption > h2 {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .heroPostCaption > h3 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .heroPostWeather{
@@ -30,4 +103,42 @@
     left: 1%;
     border-top: 2px  var(--other-color) solid;
     border-bottom: 2px  var(--other-color) solid;
+    opacity: 1;
 }
+
+}
+
+
+@media screen and (min-width: 62em) {
+
+    .heroPostSiteTitle{
+        position: absolute;
+        top: 4%;
+        left: 2%
+    }
+    
+    .heroPostCaption{
+        position: absolute;
+        top: 32%;
+        left: 30%;
+        text-align: center;
+    }
+    
+    .heroPostCaption > h2 {
+        font-size: 5rem;
+    }
+    
+    .heroPostCaption > h3 {
+        font-size: 1.6rem;
+    }
+    
+    .heroPostWeather{
+        position: absolute;
+        bottom: 4%;
+        left: 1%;
+        border-top: 2px  var(--other-color) solid;
+        border-bottom: 2px  var(--other-color) solid;
+        opacity: 1;
+    }
+    
+    }

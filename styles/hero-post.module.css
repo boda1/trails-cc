@@ -19,11 +19,11 @@
     }
     
     .heroPostCaption > h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .heroPostCaption > h3 {
-        font-size: 0.6rem;
+        font-size: 0.4rem;
     }
     
     .heroPostWeather{
@@ -108,8 +108,76 @@
 
 }
 
+@media screen and (min-width: 62em) {
+
+    .heroPostSiteTitle{
+        position: absolute;
+        top: 4%;
+        left: 2%
+    }
+    
+    .heroPostCaption{
+        position: absolute;
+        top: 32%;
+        left: 25%;
+        text-align: center;
+    }
+    
+    .heroPostCaption > h2 {
+        font-size: 5rem;
+    }
+    
+    .heroPostCaption > h3 {
+        font-size: 1.6rem;
+    }
+    
+    .heroPostWeather{
+        position: absolute;
+        bottom: 4%;
+        left: 1%;
+        border-top: 2px  var(--other-color) solid;
+        border-bottom: 2px  var(--other-color) solid;
+        opacity: 1;
+    }
+    
+    }
+
 
 @media screen and (min-width: 62em) {
+
+    .heroPostSiteTitle{
+        position: absolute;
+        top: 4%;
+        left: 2%
+    }
+    
+    .heroPostCaption{
+        position: absolute;
+        top: 32%;
+        left: 25%;
+        text-align: center;
+    }
+    
+    .heroPostCaption > h2 {
+        font-size: 5rem;
+    }
+    
+    .heroPostCaption > h3 {
+        font-size: 1.6rem;
+    }
+    
+    .heroPostWeather{
+        position: absolute;
+        bottom: 4%;
+        left: 1%;
+        border-top: 2px  var(--other-color) solid;
+        border-bottom: 2px  var(--other-color) solid;
+        opacity: 1;
+    }
+    
+}
+
+@media screen and (min-width: 105em) {
 
     .heroPostSiteTitle{
         position: absolute;
@@ -141,4 +209,4 @@
         opacity: 1;
     }
     
-    }
+}
